@@ -82,6 +82,8 @@ So Grafana will initialize OAuth login automatically.
 Load your app - that initiliazes SSO session, which will be used when iframe 
 with Grafana will be loaded.
 
+Be aware of Safari (this privacy feature will be implemented also in Chrome/Firefox in 2022). It blocks third party cookies. Recommended solution is `Option 1` from   https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/ 
+
 ## Contact
 
 Insructions are provided with my best effort. Please don't contact me if you want
